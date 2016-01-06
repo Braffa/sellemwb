@@ -91,6 +91,14 @@
 					<li><a href="gotoPage.html?gotoPage=showRegisteredUsers">List Users</a></li>
 				</c:otherwise>
 			</c:choose>
+			<c:choose>
+				<c:when test="${currentPage == 'adminMenu'}">
+					<li class='selected'><a href="gotoPage.html?gotoPage=showAdminMenu">Admin</a></li>
+				</c:when>
+				<c:otherwise>
+					<li><a href="gotoPage.html?gotoPage=showAdminMenu">Admin</a></li>
+				</c:otherwise>
+			</c:choose>			
 		</c:if>
 		<c:if test="${userObject != null && userObject.userId != null}">
 			<li><a href="gotoPage.html?gotoPage=signOut">Sign Out</a></li>

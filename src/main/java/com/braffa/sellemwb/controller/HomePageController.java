@@ -83,6 +83,9 @@ public class HomePageController {
 		if (gotoPage.equals("showRegisteredUsers")) {
 			return new ModelAndView("redirect:showRegisteredUsers.html");
 		}
+		if (gotoPage.equals("showAdminMenu")) {
+			return new ModelAndView("redirect:adminmenu.html");
+		}
 		if (gotoPage.equals("signOut")) {
 			RegisteredUser RegisteredUser = new RegisteredUser();
 			model.addAttribute("loggedin", RegisteredUser);

@@ -56,4 +56,14 @@
 		<put-attribute name="body" value="/WEB-INF/jsp/catalog.jsp" />
 	</definition>
 
+	<definition name="databasemenu" extends="base.definition">
+		<put-attribute name="title" value="Database Manager" />
+		<put-attribute name="body" value="/WEB-INF/jsp/databasemenu.jsp" />
+	</definition>
+
+	<definition name="databasereport" extends="base.definition">
+		<put-attribute name="title" value="Database Report" />
+		<put-attribute name="body" value="/WEB-INF/jsp/databasereport.jsp" />
+	</definition>
+
 </tiles-definitions>
