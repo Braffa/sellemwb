@@ -42,10 +42,10 @@
 		</c:choose>
 		<c:choose>
 			<c:when test="${currentPage == 'searchResults'}">
-				<li class='selected'><a href="gotoPage.html?gotoPage=searchCatalogue">Search Catalogue</a></li>
+				<li class='selected'><a href="gotoPage.html?gotoPage=searchCatalogue">Search</a></li>
 			</c:when>
 			<c:otherwise>
-				<li><a href="gotoPage.html?gotoPage=searchCatalogue">Search Catalogue</a></li>
+				<li><a href="gotoPage.html?gotoPage=searchCatalogue">Search</a></li>
 			</c:otherwise>
 		</c:choose>
 		<c:choose>
