@@ -2,7 +2,7 @@
 
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<h2>Home Page</h2>
+<h2 id="heading">Home Page</h2>
     
 <div class="center_left">
 	<div class="title_welcome"><span class="red">FREE</span> Hosting Control Panel</div>
@@ -46,15 +46,15 @@
 			<div class="title">Clients login</div>
 			<div class="login_form_row">					
 				<label class="login_label">Username:</label>
-				<form:input type="text" name="name" path="userName" class="login_input" />
+				<form:input id="userName" type="text" name="name" path="userName" class="login_input" />
 				</br><FONT color=red><form:errors path="userName" /></FONT>
 			</div>
 			<div class="login_form_row">					
 				<label class="login_label">Password:</label>
-				<form:password name="pass" path="password" class="login_input" />
+				<form:password id="password" name="pass" path="password" class="login_input" />
 				</br><FONT color=red><form:errors path="password" /></FONT>
 			</div>  
-				<input type="image" src="images/login.gif" class="login" />                              
+				<input id="login" type="image" src="images/login.gif" class="login" />                              
 		</div>
 	</form:form>
 	<div class="testimonials">

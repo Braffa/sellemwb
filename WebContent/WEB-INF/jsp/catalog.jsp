@@ -12,7 +12,7 @@
 <script>
 	
 </script>
-<h2>${catalogForm.header}</h2>
+<h2 id="heading">${catalogForm.header}</h2>
 <div class="features">
 <c:forEach items="${catalogForm.lOfProducts}" var="product" varStatus="prod">
 	<div class="product_box">

@@ -101,7 +101,7 @@
 			</c:choose>			
 		</c:if>
 		<c:if test="${userObject != null && userObject.userId != null}">
-			<li><a href="gotoPage.html?gotoPage=signOut">Sign Out</a></li>
+			<li><a id="signOut" href="gotoPage.html?gotoPage=signOut">Sign Out</a></li>
 		</c:if>
 	</ul>
 </div>
