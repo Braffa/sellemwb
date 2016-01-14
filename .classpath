@@ -26,5 +26,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/bdd"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/sellemdb"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -6,7 +6,7 @@ import cucumber.api.junit.Cucumber;
  
 @RunWith(Cucumber.class)
 @CucumberOptions(
-features = "C:/Users/david.brayfield/workspace/sellemwb/src/test/java/Feature"
+features = "./src/test/java/Feature"
 ,glue={"stepDefinition"}
 )
  
